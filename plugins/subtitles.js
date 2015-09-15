@@ -31,12 +31,12 @@ var attachSubtitles = function(ctx) {
   }
   ctx.options.playlist[0].media.textTrackStyle = {
     backgroundColor: '#00000000',
-    foregroundColor: '#FFFF00FF',
+    foregroundColor: '#FFFFFFFF',
     edgeType: 'OUTLINE',
     edgeColor: '#000000FF',
-    fontScale: 1,
+    fontScale: 1.4,
     fontStyle: 'NORMAL',
-    fontFamily: 'Droid Sans',
+    fontFamily: 'Arial Unicode MS',
     fontGenericFamily: 'SANS_SERIF',
     windowColor: '#AA00FFFF',
     windowRoundedCornerRadius: 10,
